@@ -1,0 +1,541 @@
+/* Themify Customize Styling */
+body:before {
+	content: '';
+	background: none;
+	background-color: rgba(49,45,105,0.43);
+	background-image: url(http://localhost/wordpress/wp-content/uploads/2022/07/keyboard.jpg);
+	background-size: cover;
+	position:fixed;top:0;left:0;width:100%;height:100vh;pointer-events:none;z-index:-1; 
+}
+body {	background: none;
+	background-color: rgba(49,45,105,0.43);background-image: url(http://localhost/wordpress/wp-content/uploads/2022/07/keyboard.jpg);
+	background-size: cover;background-attachment: fixed;
+	font-family: "Open Sans";	font-weight:300;
+	font-style:normal;
+	font-size:1.2rem;
+
+	color: #ffffff; 
+}
+a {	
+	color: #1472cf; 
+}
+a:hover {		text-decoration:underline;
+
+	color: #1472cf; 
+}
+h1 {	
+	font-family: "Open Sans";	font-weight:600;
+ 
+}
+h2 {	
+	font-family: "Open Sans";	font-weight:normal;
+ 
+}
+h3 {	
+	font-family: "Open Sans";	font-weight:300;
+ 
+}
+textarea, input[type=text], input[type=password], input[type=search], input[type=email], input[type=url], input[type=number], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=time], input[type=week] {	background: none;
+	background-color: rgba(0,0,0,0.37);background-image: none;background-attachment: fixed;
+	border: 1px solid #2200ff;
+	color: rgba(0,0,0,0.75);
+	font-family: "Open Sans";	font-weight:normal;
+	text-align:center; 
+}
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=search]:focus, input[type=email]:focus, input[type=url]:focus, input[type=number]:focus, input[type=tel]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus {	background: none;
+	background-color: rgba(159,157,179,0.55);
+	color: #ffffff; 
+}
+input[type=reset], input[type=submit], button, button[type=submit] {	
+	background-color: transparent;background-image: none;background-attachment: fixed;
+	color: #ffffff; 
+}
+input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=submit]:hover {	background: none;
+	background-color: #c1dbfd;background-image: none;background-attachment: fixed;
+	border: 1px solid #ffffff;
+	color: #240091; 
+}
+#headerwrap {	background: none;
+	background-color: rgba(69,69,69,0.63);background-image: none;
+	margin: 0%; 
+}
+#headerwrap #header {	background-image: none;background-attachment: fixed; 
+}
+#header {	
+	font-family: "Open Sans";	font-weight:normal;
+
+	color: #357abd; 
+}
+#headerwrap a {	
+	color: #357abd; 
+}
+#headerwrap a:hover {		font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+
+	color: rgba(53,121,189,0.72); 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: rgba(53,121,189,0.00);background-image: none;background-attachment: fixed; 
+}
+#headerwrap.fixed-header #site-logo a img {		width: 48px;
+	height: 48px; 
+}
+#headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {	
+	font-family: "Open Sans";	font-weight:300;
+ 
+}
+#headerwrap.fixed-header #header {	
+	color: #357abd; 
+}
+.fixed-header #header a {	
+	color: #357abd; 
+}
+.fixed-header #header a:hover {	
+	color: #357abd; 
+}
+body #site-logo a img {		width: 48px;
+	height: 48px; 
+}
+#site-logo {		position:static;
+
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%; 
+}
+#site-description {	
+	font-family: "Open Sans";	font-weight:300;
+	text-align:left;
+	color: #357abd;	position:absolute;
+margin: auto; 
+}
+#main-nav {	
+	background-color: transparent;background-image: none;background-attachment: fixed; 
+}
+#main-nav a {	
+	background-color: transparent;
+	font-family: "Open Sans";	font-weight:normal;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav a:hover {	
+	background-color: transparent; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a {	
+	background-color: transparent; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	background-color: transparent;
+	color: #357abd; 
+}
+#main-nav .highlight-link>a {	
+	background-color: transparent; 
+}
+.page-title {	
+	color: #ffffff;
+	font-family: "Open Sans";	font-weight:300;
+	font-size:32px;
+	text-transform:capitalize;	text-align:center; 
+}
+#footerwrap {	background: none;
+	background-color: rgba(0,0,0,0.75); 
+}
+#footer-logo a {	
+	font-family: "Open Sans";	font-weight:300;
+	font-size:24px;
+	text-transform:capitalize;	text-align:center;
+	color: rgba(255,255,255,0.88); 
+}
+#footer {	background: none;
+	background-color: rgba(0,0,0,0.71);
+	color: rgba(255,255,255,0.89); 
+}
+#footer, #footer-logo, .footer-nav a, .footer-text {	
+	font-family: "Open Sans";	font-weight:300;
+	font-size:12px;
+	text-transform:capitalize; 
+}
+#footer a {	
+	font-family: "Roboto";	font-weight:100;
+
+	color: #ebebeb; 
+}
+#footer a:hover {		text-decoration:underline;
+
+	color: #ffffff; 
+}
+#footer-nav {	background: none;
+	background-color: rgba(0,0,0,0.76);width: auto;height: auto;
+	border-right: 1px solid #3d3c3c;
+	border-left: 1px solid #3d3c3c; 
+}
+#footer-nav a {	background: none;
+	background-color: rgba(54,54,54,0.92);
+	color: #ffffff;
+	font-family: "Open Sans";	font-weight:300;
+	text-transform:capitalize;	text-align:center; 
+}
+#footer-nav a:hover, #footer-nav li:hover > a {	
+	color: rgba(47,0,255,0.65); 
+}
+#footer-nav .current_page_item a, #footer-nav .current-menu-item a {	
+	color: #0000ff; 
+}
+.footer-widgets {	
+	font-family: "Open Sans";	font-weight:300;
+	text-transform:capitalize;	text-align:center; 
+}
+#footer .footer-widgets .widgettitle {	
+	color: #ffffff;
+	font-family: "Open Sans";	text-decoration:underline;
+	font-weight:300;
+	font-size:20px;
+	text-transform:capitalize;	text-align:center; 
+}
+.footer-widgets .widget li {	
+	border-left: 1px solid rgba(41,41,41,0.86);; 
+}
+#pagewrap .back-top.back-top-float, .full-section-scrolling #footerwrap .back-top .arrow-up a, .footer-horizontal-left #footerwrap .back-top .arrow-up a, .footer-horizontal-right #footerwrap .back-top .arrow-up a, .footer-left-col #footerwrap .back-top .arrow-up a, .footer-right-col #footerwrap .back-top .arrow-up a, #footer .back-top .arrow-up a {	background: none;
+	background-color: #000000; 
+}
+#footerwrap .back-top a:before, #pagewrap .back-top.back-top-float {	
+	color: #ffffff; 
+}
+@media screen and (max-width: 1024px) { /* Themify Customize Styling */
+body {	background: none;
+	background-color: rgba(49,45,105,0.43);
+	background-size: cover;	font-weight:300;
+
+	color: #ffffff; 
+}
+a {	
+	color: #1472cf; 
+}
+a:hover {	
+	color: #1472cf; 
+}
+h1 {		font-weight:600;
+ 
+}
+h2 {		font-weight:normal;
+ 
+}
+h3 {		font-weight:300;
+ 
+}
+textarea, input[type=text], input[type=password], input[type=search], input[type=email], input[type=url], input[type=number], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=time], input[type=week] {	
+	border: 1px solid;
+	color: rgba(255,255,255,0.75); 
+}
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=search]:focus, input[type=email]:focus, input[type=url]:focus, input[type=number]:focus, input[type=tel]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus {	background: none;
+	background-color: rgba(159,157,179,0.55);
+	color: #ffffff; 
+}
+input[type=reset], input[type=submit], button, button[type=submit] {	
+	color: #ffffff; 
+}
+input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=submit]:hover {	background: none;
+	background-color: #c1dbfd;
+	border: 1px solid #ffffff;
+	color: #240091; 
+}
+#headerwrap {	background: none;
+	background-color: #e10600; 
+}
+#header {		font-weight:normal;
+
+	color: #ffffff; 
+}
+#headerwrap a {	
+	color: #ffffff; 
+}
+#headerwrap a:hover {	
+	color: #ffffff; 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: #ee2312; 
+}
+#headerwrap.fixed-header #site-logo a img {		width: 48px;
+	height: 48px; 
+}
+#headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		font-weight:300;
+ 
+}
+#headerwrap.fixed-header #header {	
+	color: #357abd; 
+}
+.fixed-header #header a {	
+	color: #ffffff; 
+}
+.fixed-header #header a:hover {	
+	color: #ffffff; 
+}
+#site-description {		font-weight:100;
+ 
+}
+#main-nav a {		font-weight:normal;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #ffffff; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #e6e6e6; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #26918d; 
+}
+#main-nav-wrap #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	color: #26bdb8; 
+}
+.page-title {	
+	font-family: "Open Sans";	font-weight:300;
+ 
+}
+#footerwrap {	background: none;
+	background-color: rgba(0,0,0,0.75); 
+}
+#footer-logo a {		font-weight:300;
+
+	color: rgba(255,255,255,0.88); 
+}
+#footer {	background: none;
+	background-color: rgba(0,0,0,0.71); 
+}
+#footer, #footer-logo, .footer-nav a, .footer-text {		font-weight:300;
+ 
+}
+#footer a {		font-weight:100;
+
+	color: #ebebeb; 
+}
+#footer a:hover {	
+	color: #ffffff; 
+}
+#footer-nav {	background: none;
+	background-color: rgba(0,0,0,0.76); 
+}
+#footer-nav a {	background: none;
+	background-color: rgba(54,54,54,0.92);
+	color: #ffffff;	font-weight:300;
+ 
+}
+#footer-nav a:hover, #footer-nav li:hover > a {	
+	color: rgba(47,0,255,0.65); 
+}
+#footer-nav .current_page_item a, #footer-nav .current-menu-item a {	
+	color: #0000ff; 
+}
+.footer-widgets {		font-weight:300;
+ 
+}
+#footer .footer-widgets .widgettitle {	
+	color: #d4d4d4;	font-weight:300;
+ 
+}
+#pagewrap .back-top.back-top-float, .full-section-scrolling #footerwrap .back-top .arrow-up a, .footer-horizontal-left #footerwrap .back-top .arrow-up a, .footer-horizontal-right #footerwrap .back-top .arrow-up a, .footer-left-col #footerwrap .back-top .arrow-up a, .footer-right-col #footerwrap .back-top .arrow-up a, #footer .back-top .arrow-up a {	background: none;
+	background-color: #000000; 
+}
+#footerwrap .back-top a:before, #pagewrap .back-top.back-top-float {	
+	color: #ffffff; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+body {	
+	background-size: cover;	font-weight:300;
+ 
+}
+h1 {		font-weight:600;
+ 
+}
+h2 {		font-weight:normal;
+ 
+}
+h3 {		font-weight:300;
+ 
+}
+textarea, input[type=text], input[type=password], input[type=search], input[type=email], input[type=url], input[type=number], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=time], input[type=week] {	
+	border: 1px solid; 
+}
+input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=submit]:hover {	
+	border: 1px solid #ffffff; 
+}
+#header {		font-weight:normal;
+ 
+}
+#headerwrap.fixed-header #site-logo a img {		width: 48px;
+	height: 48px; 
+}
+#headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		font-weight:300;
+ 
+}
+#site-description {		font-weight:100;
+ 
+}
+#main-nav a {		font-weight:normal;
+ 
+}
+.page-title {	
+	font-family: "Open Sans";	font-weight:300;
+ 
+}
+#footer-logo a {		font-weight:300;
+ 
+}
+#footer, #footer-logo, .footer-nav a, .footer-text {		font-weight:300;
+ 
+}
+#footer a {		font-weight:100;
+ 
+}
+#footer-nav a {		font-weight:300;
+ 
+}
+.footer-widgets {		font-weight:300;
+ 
+}
+#footer .footer-widgets .widgettitle {		font-weight:300;
+ 
+}
+ }@media screen and (max-width: 600px) { /* Themify Customize Styling */
+body {	
+	background-size: cover;	font-weight:300;
+ 
+}
+h1 {		font-weight:600;
+ 
+}
+h2 {		font-weight:normal;
+ 
+}
+h3 {		font-weight:300;
+ 
+}
+textarea, input[type=text], input[type=password], input[type=search], input[type=email], input[type=url], input[type=number], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=time], input[type=week] {	
+	border: 1px solid;
+	color: rgba(0,0,0,0.75); 
+}
+input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=submit]:hover {	
+	border: 1px solid #ffffff; 
+}
+#headerwrap {	background: none;
+	background-color: rgba(69,69,69,0.63); 
+}
+#header {		font-weight:normal;
+
+	color: #357abd; 
+}
+#headerwrap a {	
+	color: #357abd; 
+}
+#headerwrap a:hover {	
+	color: rgba(53,121,189,0.72); 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: rgba(53,121,189,0.00); 
+}
+#headerwrap.fixed-header #site-logo a img {		width: 48px;
+	height: 48px; 
+}
+#headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		font-weight:300;
+ 
+}
+.fixed-header #header a {	
+	color: #357abd; 
+}
+.fixed-header #header a:hover {	
+	color: #357abd; 
+}
+#site-description {		font-weight:100;
+ 
+}
+#main-nav a {		font-weight:normal;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #357abd; 
+}
+#main-nav-wrap #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	color: #357abd; 
+}
+.page-title {	
+	font-family: "Open Sans";	font-weight:300;
+ 
+}
+#footer-logo a {		font-weight:300;
+ 
+}
+#footer, #footer-logo, .footer-nav a, .footer-text {		font-weight:300;
+ 
+}
+#footer a {		font-weight:100;
+ 
+}
+#footer-nav a {		font-weight:300;
+ 
+}
+.footer-widgets {		font-weight:300;
+ 
+}
+#footer .footer-widgets .widgettitle {		font-weight:300;
+ 
+}
+ }.mobile-menu-visible.header-slide-out .sidemenu-on, .mobile-menu-visible.header-overlay #headerwrap, .mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .mobile_menu_active #headerwrap .sidemenu-on { 
+	background-color: transparent; }.mobile_menu_active #headerwrap .sidemenu-on #main-nav a { 
+	font-family: "Open Sans";	font-weight:300;
+	text-align:center; }.mobile_menu_active #headerwrap .sidemenu-on a, .mobile_menu_active #headerwrap #main-nav a, .mobile_menu_active #headerwrap #main-nav ul a { 
+	color: #357abd; }.mobile_menu_active #headerwrap .sidemenu-on a:hover, .mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover { background: none;
+	background-color: #ffffff; }.mobile_menu_active #headerwrap .sidemenu-on a:hover, .mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover { 
+	color: #357abd; }.mobile_menu_active #headerwrap #main-nav .current_page_item > a, .mobile_menu_active #headerwrap #main-nav .current-menu-item > a { background: none;
+	background-color: rgba(184,184,184,0.39); }.mobile_menu_active #headerwrap #main-nav .current_page_item > a, .mobile_menu_active #headerwrap #main-nav .current-menu-item > a { 
+	color: #78b9fa; }.mobile_menu_active #headerwrap #main-nav .current_page_item > a:hover, .mobile_menu_active #headerwrap #main-nav .current-menu-item > a:hover { background: none;
+	background-color: #b8b8b8; }.mobile_menu_active #headerwrap #main-nav .current_page_item > a:hover, .mobile_menu_active #headerwrap #main-nav .current-menu-item > a:hover { 
+	color: #78b9fa; }.mobile_menu_active #menu-icon { 
+	color: #ffffff; }.body-overlay { 
+	background-color: transparent; }
+/* Themify Custom CSS */
+
+#headerwrap, #footerwrap
+{
+	border:none;
+	padding:0;
+} 
+/* HOVER EFFECT ON THE HEADER LINKS..they have been styled in order...initially I used the 4 long class names but with this method i have reduced the coding by half*/
+
+ ul#main-nav a {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+ ul#main-nav a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+} 
+
+ ul#main-nav a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
